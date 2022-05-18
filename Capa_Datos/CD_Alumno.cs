@@ -32,8 +32,9 @@ namespace Capa_Datos
             catch (Exception)
             {
 
-                throw;
+                throw new Exception(); ;
             }
+           
         }
 
         public bool anula_alumno(CE_Alumno oalumno2)

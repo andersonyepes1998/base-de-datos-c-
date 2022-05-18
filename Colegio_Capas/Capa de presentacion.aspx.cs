@@ -23,18 +23,30 @@ namespace Colegio_Capas
 
         protected void BTNguardar_Click(object sender, EventArgs e)
         {
-            OEalumno.Id_Alumno1 = Convert.ToString(txt1);
-            OEalumno.Nom_Alumno1 = Convert.ToString(txt2);
-            OEalumno.Dir_Alumno1 = Convert.ToString(txt3);
-            OEalumno.Tel_Alumno1 = Convert.ToInt32(txt4);
-            OEalumno.Grp_Alumno1 = Convert.ToString(txt5);
+            
+        }
+
+        protected void BTNconsultar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void BTNguardar_Click1(object sender, EventArgs e)
+        {
+            OEalumno.Id_Alumno1 = Convert.ToString(txt1.Text);
+            OEalumno.Nom_Alumno1 = Convert.ToString(txt2.Text);
+            OEalumno.Dir_Alumno1 = Convert.ToString(txt3.Text);
+            OEalumno.Tel_Alumno1 = Convert.ToInt32(txt4.Text);
+            OEalumno.Grp_Alumno1 = Convert.ToString(txt5.Text);
 
             if (ONalumno.guardar_alumnos(OEalumno))
             {
-
+                lblrespuesta.Text = "Informacion del alumno guardado.";
+            }
+            else
+            {
+                lblrespuesta.Text = "No se puedo guardar la informcion.";
             }
         }
-
-     
     }
 }

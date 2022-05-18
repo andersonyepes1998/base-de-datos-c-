@@ -112,20 +112,22 @@
                 </tr>
                 <tr>
                     <td class="auto-style5"></td>
-                    <td class="auto-style9"></td>
+                    <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style6">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">
+                        <asp:Label ID="lblrespuesta" runat="server" Text="RESPUESTA:"></asp:Label>
+                    </td>
                     <td class="auto-style7">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style10">
-                        <asp:Button ID="BTNguardar" runat="server" OnClick="BTNguardar_Click1" Text="Guardar" />
+                        <asp:Button ID="BTNguardar" runat="server" OnClick="BTNguardar_Click1" Text="GUARDAR" />
                     </td>
                     <td class="auto-style11">
-                        <asp:Button ID="BTNconsultar" runat="server" Text="Consultar" />
+                        <asp:Button ID="BTNconsultar" runat="server" OnClick="BTNconsultar_Click" Text="Consultar" />
                     </td>
                     <td class="auto-style12">
                         <asp:Button ID="BTNeliminar" runat="server" Text="Eliminar" />

@@ -1,0 +1,6 @@
+C:\Users\503\Desktop\base-de-datos-c-\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\503\Desktop\base-de-datos-c-\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\503\Desktop\base-de-datos-c-\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\503\Desktop\base-de-datos-c-\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\503\Desktop\base-de-datos-c-\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\503\Desktop\base-de-datos-c-\Capa_Entidad\obj\Debug\Capa_Entidad.pdb

@@ -69,6 +69,15 @@ namespace Colegio_Capas
         protected global::System.Web.UI.WebControls.TextBox txt5;
 
         /// <summary>
+        /// Control lblrespuesta.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblrespuesta;
+
+        /// <summary>
         /// Control BTNguardar.
         /// </summary>
         /// <remarks>
